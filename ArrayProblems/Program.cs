@@ -1,34 +1,54 @@
 ﻿using System;
 
-namespace FindDuplicate
+class Program
 {
-    class Program
+    static void ReverseWord(char[] word, int start, int end)
     {
-        static void Main()
+        while (start < end)
         {
-            int n = Convert.ToInt32(Console.ReadLine());
+            char temp = word[start];
+            word[start] = word[end];
+            word[end] = temp;
+            start++;
+            end--;
+        }
+    }
 
-            for (int i = 0; i < n; i++)
+    static string ReverseWords(string input)
+    {
+        char[] charArray = input.ToCharArray();
+
+        int start = 0;
+        for (int end = 0; end < charArray.Length; end++)
+        {
+            if (charArray[end] == ' ' || end == charArray.Length - 1)
             {
-                if (i == 0 || i == n - 1)
+                int wordEnd;
+                if (end == charArray.Length - 1)
                 {
-                    for (int j = 0; j < n; j++)
-                    {
-                        Console.Write("*");
-                    }
-                    Console.WriteLine();
+                    wordEnd = end;
                 }
                 else
                 {
-                    Console.Write("*");
-                    for (int space = 0; space < n - 2; space++)
-                    {
-                        Console.Write(" ");
-                    }
-                    Console.Write("*");
-                    Console.WriteLine();
+                    wordEnd = end - 1;
                 }
+
+                ReverseWord(charArray, start, wordEnd);
+                start = end + 1;
             }
         }
+
+        return new string(charArray);
+    }
+
+    static void Main()
+    {
+        Console.Write("Enter a string: ");
+        string input = Console.ReadLine();
+
+        // Call the function to reverse each word
+        string reversedString = ReverseWords(input);
+
+        Console.WriteLine($"Reversed string: {reversedString}");
     }
 }
