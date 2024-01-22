@@ -1,0 +1,15 @@
+/Users/prince/Desktop/Locobuzz Training/loco/Day9/ArrayProblems/bin/Debug/net7.0/ArrayProblems
+/Users/prince/Desktop/Locobuzz Training/loco/Day9/ArrayProblems/bin/Debug/net7.0/ArrayProblems.deps.json
+/Users/prince/Desktop/Locobuzz Training/loco/Day9/ArrayProblems/bin/Debug/net7.0/ArrayProblems.runtimeconfig.json
+/Users/prince/Desktop/Locobuzz Training/loco/Day9/ArrayProblems/bin/Debug/net7.0/ArrayProblems.dll
+/Users/prince/Desktop/Locobuzz Training/loco/Day9/ArrayProblems/bin/Debug/net7.0/ArrayProblems.pdb
+/Users/prince/Desktop/Locobuzz Training/loco/Day9/ArrayProblems/obj/Debug/net7.0/ArrayProblems.csproj.AssemblyReference.cache
+/Users/prince/Desktop/Locobuzz Training/loco/Day9/ArrayProblems/obj/Debug/net7.0/ArrayProblems.GeneratedMSBuildEditorConfig.editorconfig
+/Users/prince/Desktop/Locobuzz Training/loco/Day9/ArrayProblems/obj/Debug/net7.0/ArrayProblems.AssemblyInfoInputs.cache
+/Users/prince/Desktop/Locobuzz Training/loco/Day9/ArrayProblems/obj/Debug/net7.0/ArrayProblems.AssemblyInfo.cs
+/Users/prince/Desktop/Locobuzz Training/loco/Day9/ArrayProblems/obj/Debug/net7.0/ArrayProblems.csproj.CoreCompileInputs.cache
+/Users/prince/Desktop/Locobuzz Training/loco/Day9/ArrayProblems/obj/Debug/net7.0/ArrayProblems.dll
+/Users/prince/Desktop/Locobuzz Training/loco/Day9/ArrayProblems/obj/Debug/net7.0/refint/ArrayProblems.dll
+/Users/prince/Desktop/Locobuzz Training/loco/Day9/ArrayProblems/obj/Debug/net7.0/ArrayProblems.pdb
+/Users/prince/Desktop/Locobuzz Training/loco/Day9/ArrayProblems/obj/Debug/net7.0/ArrayProblems.genruntimeconfig.cache
+/Users/prince/Desktop/Locobuzz Training/loco/Day9/ArrayProblems/obj/Debug/net7.0/ref/ArrayProblems.dll
