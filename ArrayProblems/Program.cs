@@ -8,25 +8,30 @@ namespace findDuplicate
 
         static void Main()
         {
+            
             int[] arr = { 1, 2, 2, 3, 4, 4, 5 };
-
-            int count = 0;
-
             for (int i = 0; i < arr.Length; i++)
             {
+                int j;
 
-                for (int j = i + 1; j < arr.Length; j++)
+                for (j = 0; j < i; j++)
                 {
 
                     if (arr[i] == arr[j])
                     {
-                        count++;
-
+                        break;
 
                     }
+
                 }
+                if (i == j) Console.Write(arr[i] + " ");
+
+
             }
-            Console.WriteLine($"Total number of duplicate element in the give arrays are : {count}");
+
+
+
+
         }
     }
 }
