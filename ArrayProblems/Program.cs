@@ -1,69 +1,34 @@
 ﻿using System;
-namespace findDuplicate
-{
 
+namespace FindDuplicate
+{
     class Program
     {
-
-
         static void Main()
         {
-            int[] arr = { 1, 2, 2, 3, 4, 4, 5 };
+            int n = Convert.ToInt32(Console.ReadLine());
 
-            int count = 0;
-
-            for (int i = 0; i < arr.Length; i++)
+            for (int i = 0; i < n; i++)
             {
-
-                for (int j = i + 1; j < arr.Length; j++)
+                if (i == 0 || i == n - 1)
                 {
-
-                    if (arr[i] == arr[j])
+                    for (int j = 0; j < n; j++)
                     {
-                        count++;
-
-
+                        Console.Write("*");
                     }
+                    Console.WriteLine();
+                }
+                else
+                {
+                    Console.Write("*");
+                    for (int space = 0; space < n - 2; space++)
+                    {
+                        Console.Write(" ");
+                    }
+                    Console.Write("*");
+                    Console.WriteLine();
                 }
             }
-            Console.WriteLine($"Total number of duplicate element in the give arrays are : {count}");
         }
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
