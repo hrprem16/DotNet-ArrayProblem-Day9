@@ -3,16 +3,21 @@
 class Program
 {
    
-    static void Main()
-    {
-        int number = Convert.ToInt32(Console.ReadLine());
-        int sum = 0;
-        while (number != 0)
+    
+        static void Main(string[] args)
         {
-            int q = number % 10;
-            sum += q;
-            number = number / 10;
+            int[,] numbers = { { 1, 4, 2 }, { 3, 6, 8 },{4,7,8 } };
+            
+            for(int i = 0; i < numbers.GetLength(0); i++)
+            {
+                int sum = 0;
+                for(int j = 0; j < numbers.GetLength(1); j++)
+                {
+                 sum += numbers[i, j];
+                }
+            Console.WriteLine($"Sum of {i} th row is {sum}");
+
+            }
         }
-        Console.WriteLine($"The sum of the digit is {sum}");
-    }
+    
 }
